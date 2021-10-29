@@ -1,0 +1,636 @@
+/* -------------------------------------------
+    GENERAL
+----------------------------------------------*/
+body {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background: #FFFACD;
+}
+
+.container-fluid {
+    margin: 0;
+}
+
+.gl-2x {
+    font-size: 2em;
+}
+
+.gl-lg {
+    font-size: 1.4em;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+i, span {
+    display: inline-block;
+}
+
+.no-gutter {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.no-gutter > [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* To center columns */
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+
+.addcustomize-btn > button {
+    margin: 5px;
+}
+
+/* -------------------------------------------
+    TOP BAR
+----------------------------------------------*/
+#top-bar {background: #4c4c4c; }
+.navbar-text { float: none; }
+.store-info { color: #fff; }
+
+/* -------------------------------------------
+    GENERAL CONTENT
+----------------------------------------------*/
+.page-content {
+    display: none;
+}
+
+.page-header {
+    text-align: center;
+    margin: 20px;
+    font-size: 2em;  
+    font-family: 'Pacifico', cursive;
+    border-bottom: none;
+}
+
+.page-item {
+    border-radius: 5px;
+    background: #fff;
+    padding: 20px;
+}
+
+
+
+/* -------------------------------------------
+    CAROUSEL
+----------------------------------------------*/
+.owl-carousel .owl-stage {
+    display: flex;
+    align-items: center;
+}
+
+.owl-carousel .item {
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin: 0 auto;
+}
+
+#popular-carousel {
+    margin-bottom: 30px;
+}
+
+#popular-carousel .owl-carousel .item:hover, .item-hover {
+    border: 3px solid yellow;
+    opacity: 0.5;
+}
+
+.wrapper-img {
+    /*min-width: 100px;*/
+    max-width: 100px;
+    height: auto;
+}
+
+/* -------------------------------------------
+    DESCRIPTION PANEL
+----------------------------------------------*/
+#description-panel {
+    margin-bottom: 10px;
+    padding: 30px;
+    background-color: #FFA319;
+}
+
+#description-panel, .description-text  { display: none; }
+
+#popular-btn {
+    margin-top: 10px;
+}
+/* -------------------------------------------
+    MODAL BOX
+----------------------------------------------*/
+#customModal .modal-header, #saveModal .modal-header {
+    text-align: center;
+    background-color: #F2493A;
+    color: white;
+}
+
+#reviewModal .modal-header {
+    text-align: center;
+    background-color: #32CD32;
+    color: white;
+    border-bottom: none;
+}
+
+.modal-body { padding: 20px; }
+
+.nav-pills li a {
+    color: #fff;
+    background: #449d44;
+    border-radius: 0;   
+}
+
+.nav-pills > li > a:hover,
+.nav-pills > li.active > a, 
+.nav-pills > li.active > a:focus, 
+.nav-pills > li.active > a:hover {
+    background: #fff;
+    color: #419641;
+    
+}
+
+.nav-justified > li {
+    display: table-cell;
+    width: 1%;
+}
+
+.nav-justified > li > a { margin-bottom: 0; }
+
+#checkout .tab-pane { padding: 20px; }
+
+/* -------------------------------------------
+    MODAL BOX - FORM
+----------------------------------------------*/
+#checkout h3, .order-method {
+    margin-bottom: 20px;
+}
+
+.btn-group button {
+    background: #fff;
+    color: #398439;
+}
+
+/*------------------------------------------
+    BUILD BURGER
+--------------------------------------------*/
+.build-group {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.btn-sample { 
+  color: #ffffff; 
+  background-color: #FF9340; 
+  border-color: #FC7814; 
+} 
+ 
+.btn-sample:hover, 
+.btn-sample:focus, 
+.btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  color: #ffffff; 
+  background-color: #FC7F3C; 
+  border-color: #FC7814; 
+} 
+ 
+.btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  background-image: none; 
+} 
+ 
+.btn-sample.disabled, 
+.btn-sample[disabled], 
+fieldset[disabled] .btn-sample, 
+.btn-sample.disabled:hover, 
+.btn-sample[disabled]:hover, 
+fieldset[disabled] .btn-sample:hover, 
+.btn-sample.disabled:focus, 
+.btn-sample[disabled]:focus, 
+fieldset[disabled] .btn-sample:focus, 
+.btn-sample.disabled:active, 
+.btn-sample[disabled]:active, 
+fieldset[disabled] .btn-sample:active, 
+.btn-sample.disabled.active, 
+.btn-sample[disabled].active, 
+fieldset[disabled] .btn-sample.active { 
+  background-color: #F77816; 
+  border-color: #FC7814; 
+} 
+ 
+.btn-sample .badge { 
+  color: #F77816; 
+  background-color: #ffffff; 
+}
+
+#burger-status-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#bun-container {
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+
+#meat-container {
+    background-color: #c9302c;
+    border-color: #ac2925;
+}
+
+#veg-container {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+#sauce-container {
+    background-color: #FF9340;
+    border-color: #FC7814;
+}
+
+.ingredient-container {
+    min-height: 80px;
+}
+
+.build-img {
+    margin: 0 auto;
+    max-width: 80px;
+    background: #fff;
+    border: 1px solid #ddd;
+    height: auto;
+}
+
+#option-panel {
+    background: #3a3a3a;
+    margin: 0 10px 10px 10px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+.build-instruction {
+    /*background: #fff;*/
+}
+
+#status-panel {
+    padding: 0 0 10px 0;
+}
+
+/*------------------------------------------
+    SIDEBAR & RECEIPT BAR
+--------------------------------------------*/
+#nav-side-menu, #receipt-bar {
+    background: #F2493A;
+    color: #fff;
+    position: fixed;
+    width: 200px;
+    /*height: 100%;*/
+    top: 50px;
+    bottom: 0;
+    overflow-y: auto;
+}
+
+#checkout-option{
+    background: #32CD32;
+}
+
+#receipt-bar .brand:hover {
+    background: #000;
+}
+.not-custom {
+    display: none;
+}
+
+.brand {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    display: block;
+    padding: 20px;
+    background: #DC4335;
+    border: 1px solid #d91e0e;
+}
+
+#nav-side-menu .toggle-btn, #cart {
+    display: none;
+}
+
+#nav-side-menu ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#nav-side-menu ul li a:hover, #nav-side-menu ul li a:focus, .link-hover {
+    color: #F2493A;
+    background: #fff;
+}
+
+/*------------------------------------------
+    RECEIPT BAR
+--------------------------------------------*/
+#receipt-bar { 
+    right: 0;
+    padding: 10px; 
+}
+
+#receipt-bar .brand {
+    color: #fff;
+    box-shadow: 0 6px #008000;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#receipt-bar .brand:hover {
+    color: #000;
+    background: #008000;
+    box-shadow: 0 4px #008000;
+    top: 2px;
+    
+}
+
+#receipt-list li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.receipt-quantity {
+    color: #000;
+    width: 25%;
+    margin-right: 5px;
+}
+
+.receipt-button {
+    text-align: right;
+}
+
+/*Show always the arrows*/
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 1;
+}
+
+.total-price {
+    text-align: right;
+    padding: 20px;
+    border-top: 1px solid #B1362B;
+}
+
+.receipt-img {
+    width: 50px;
+    height: auto;
+}
+
+.item-summary > div{
+    margin-left: 10px;
+    font-size: 0.8em;
+    padding: 3px;
+}
+/*------------------------------------------
+    CHECKOUT
+--------------------------------------------*/
+.order-header {
+    padding-bottom: 15px;
+    margin: 10px 10px 15px 10px;
+    border-bottom: 1px solid #eee;
+    color: #aaa;
+    text-align: right;
+}
+
+.order {
+    margin: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    text-align: right;
+}
+
+.order-name, .order-customize {
+    text-align: center;
+}
+
+.order-quantity input {
+    width: 50%;
+}
+
+.cust-order-btn {
+    margin-right: 5px;
+}
+
+.order-total {
+    margin: 10px;
+    text-align: right;
+}
+
+.order-total-header {
+    margin-bottom: 20px;
+    color: #aaa;
+}
+/*------------------------------------------
+    MEDIA QUERIES (MAX-WIDTH 767)
+--------------------------------------------*/
+@media (max-width: 767px) {
+
+    /*------------------------------------------
+    CHECKOUT
+    --------------------------------------------*/
+    .order-header, .order-price {
+        display: none;
+    }
+
+    .order {
+        text-align: center;
+    }
+
+    .order > [class*="col-"] {
+        margin: 5px;
+    }
+
+    /*------------------------------------------
+    TOP BAR
+    --------------------------------------------*/
+    #top-bar h4 {
+        font-size: 1em;
+    }
+
+    .store-info span {
+        display: none;
+    }
+
+    /*------------------------------------------
+    SIDEBAR
+    --------------------------------------------*/
+    #nav-side-menu {
+        position: relative;
+        width: 100%;
+        margin-bottom: 10px;
+        top: 0;
+    }
+
+    #nav-side-menu h3 {
+        font-size: 0.9em;
+    }
+
+    #nav-side-menu .toggle-btn, #cart {
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        right: 10px;
+        top: 15px;
+        z-index: 10 !important;
+        padding: 3px;
+        background: #DC4335;
+        color: #fff;
+        width: 40px;
+        text-align: center;
+    }
+
+    #cart {
+        top: 55px;
+    }
+
+    #nav-side-menu .toggle-btn:hover, #cart:hover {
+        color: #000;
+    }
+
+    #nav-side-menu .brand {
+        text-align: left !important;
+        font-size: 22px;
+        padding-left: 20px;
+    }
+
+    /* -------------------------------------------
+    RECEIPT BAR
+    ----------------------------------------------*/
+    #receipt-bar{
+        display: none;
+    }
+
+    /* -------------------------------------------
+    RECEIPT BAR
+    ----------------------------------------------*/
+    #option-panel {
+        margin: 0 0 10px 0;
+    }
+    /* -------------------------------------------
+    GENERAL CONTENT
+    ----------------------------------------------*/
+    .page-content h1 {
+        font-size: 1.5em;
+    }
+
+
+}
+
+/*------------------------------------------
+    MEDIA QUERIES (MIN-WIDTH 767)
+--------------------------------------------*/
+@media (min-width: 767px) {
+
+    /*------------------------------------------
+    SIDEBAR
+    --------------------------------------------*/
+    #menu-content, #receipt-bar .brand{ 
+        display: block;
+    }
+
+    /* -------------------------------------------
+    GENERAL CONTENT
+    ----------------------------------------------*/
+    #main {
+        /*overflow-y: auto;*/
+        width: calc(100% - 400px); 
+    }
+
+}
+
+/*------------------------------------------
+    MEDIA QUERIES (767 < x < 992)
+--------------------------------------------*/
+@media (min-width: 767px) and (max-width: 992px){
+
+    /*------------------------------------------
+    CHECKOUT
+    --------------------------------------------*/
+    #checkout-option i {
+        margin-right: 0;
+        display: block;
+    }
+
+    #checkout-option span {
+        font-size: 1em;
+    }
+
+    /*------------------------------------------
+    SIDEBAR & RECEIPT BAR
+    --------------------------------------------*/
+    #nav-side-menu, #receipt-bar {
+        width: 150px;
+    }
+
+    .brand h3 {
+        font-size: 1.1em;
+    }
+
+    #nav-side-menu ul li a, .brand #checkout {
+        padding: 20px 10px;
+        text-align: center;
+        font-size: 0.85em;
+    }
+
+    #nav-side-menu ul li a i, #receipt-bar .brand a i {
+        margin-right: 0;
+        display: block;
+        font-size: 1.8em;
+        margin-bottom: 5px;
+    }
+
+    .receipt-quantity {
+        width: 40%;
+    }
+
+    .receipt-btn {
+        display: block;
+        text-align: center;
+    }
+
+    .total-price h4 {
+        font-size: 1em;
+    } 
+
+
+
+    /* -------------------------------------------
+    GENERAL CONTENT
+    ----------------------------------------------*/
+    #main { 
+        width: calc(100% - 300px); 
+    }  
+}
+
+/*------------------------------------------
+    MEDIA QUERIES (MAX-WIDTH 767)
+--------------------------------------------*/
+@media (max-width: 992px) {
+    /*------------------------------------------
+    BUILD
+    --------------------------------------------*/
+    #sm-many-instruction {
+        display: block;
+    }
+    #md-many-instruction {
+        display: none;
+    }
+    
+}
